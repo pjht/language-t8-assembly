@@ -9,86 +9,119 @@
 'patterns': [
   {
     'match': '\\bLOAD\\b'
-    'name': 'keyword.other.masm.load'
+    'name': 'keyword.other.t8asm.load'
   },
   {
     'match': '\\bSTOR\\b'
-    'name': 'keyword.other.masm.stor'
+    'name': 'keyword.other.t8asm.stor'
   },
   {
     'match': '\\bLOADP\\b'
-    'name': 'keyword.other.masm.loadp'
+    'name': 'keyword.other.t8asm.loadp'
   },
   {
     'match': '\\bSTORP\\b'
-    'name': 'keyword.other.masm.storp'
+    'name': 'keyword.other.t8asm.storp'
   },
   {
     'match': '\\bLODI\\b'
-    'name': 'keyword.other.masm.lodi'
+    'name': 'keyword.other.t8asm.lodi'
   },
   {
     'match': '\\bLODIP\\b'
-    'name': 'keyword.other.masm.lodip'
+    'name': 'keyword.other.t8asm.lodip'
   },
   {
     'match': '\\bARITH\\b'
-    'name': 'keyword.other.masm.arith'
+    'name': 'keyword.other.t8asm.arith'
   },
   {
     'match': '\\bARITI\\b'
-    'name': 'keyword.other.masm.ariti'
+    'name': 'keyword.other.t8asm.ariti'
   },
   {
     'match': '\\bMOV\\b'
-    'name': 'keyword.other.masm.mov'
+    'name': 'keyword.other.t8asm.mov'
   },
   {
     'match': '\\bJMPC\\b'
-    'name': 'keyword.control.masm.jmpc'
+    'name': 'keyword.control.t8asm.jmpc'
   },
   {
     'match': '\\bCALL\\b'
-    'name': 'keyword.control.masm.call'
+    'name': 'keyword.control.t8asm.call'
   },
   {
     'match': '\\bHLT\\b'
-    'name': 'keyword.control.masm.hlt'
+    'name': 'keyword.control.t8asm.hlt'
   },
   {
     'match': '\\bRET\\b'
-    'name': 'keyword.control.masm.ret'
+    'name': 'keyword.control.t8asm.ret'
   },
   {
     'match': '\\bIN\\b'
-    'name': 'keyword.other.masm.in'
+    'name': 'keyword.other.t8asm.in'
   },
   {
     'match': '\\bOUT\\b'
-    'name': 'keyword.other.masm.out'
+    'name': 'keyword.other.t8asm.out'
   },
   {
     'match': '\\bPUSH\\b'
-    'name': 'keyword.other.masm.push'
+    'name': 'keyword.other.t8asm.push'
   },
   {
     'match': '\\bPOP\\b'
-    'name': 'keyword.other.masm.pop'
+    'name': 'keyword.other.t8asm.pop'
   },
   {
     'match': "\\bADD\\b"
-    'name': 'keyword.other</scope>.masm.add'
+    'name': 'keyword.other.t8asm.add'
   },
+  {
+    'match': "\\bSUB\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bADC\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bSBB\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bCMP\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bAND\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bOR\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bNOT\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+  {
+    'match': "\\bXOR\\b"
+    'name': 'keyword.other.t8asm.add'
+  },
+
   {
     'match': '#.*'
     'name': 'comment.line.number-sign'
   },
   {
     'match': '\\b\\d+\\b'
-    'name': 'constant.numeric.masm'
+    'name': 'constant.numeric.t8asm'
   },
   {
     'match': '\\b0x[0-9a-fA-F]+\\b'
-    'name': 'constant.numeric.masm'
+    'name': 'constant.numeric.t8asm'
   }
 ]
