@@ -1,0 +1,13 @@
+{
+  "name": "language-t8-assembly",
+  "version": "0.0.0",
+  "description": "This is the atom package for my T8 cpu's assembly language (see pjht/t8)",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/pjht/language-t8-assembly",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
