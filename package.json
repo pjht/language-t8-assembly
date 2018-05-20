@@ -1,6 +1,6 @@
 {
   "name": "language-t8-assembly",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This is the atom package for my T8 cpu's assembly language (see pjht/t8)",
   "keywords": [
     "language",
